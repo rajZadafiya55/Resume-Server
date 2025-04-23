@@ -14,7 +14,7 @@ connectDB();
 
 const app = express();
 
-const allowedOrigins = ['https://resume-rz.vercel.app', 'http://localhost:5173'];
+const allowedOrigins = ['https://resume-rz.vercel.app', 'http://localhost:5173','*'];
 
 app.use(cors({
   origin: function (origin, callback) {
